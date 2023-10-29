@@ -4,19 +4,23 @@
     "description": "This is the resume of emeraldjava.",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/emeraldjava/resume.git"
+        "type": "git",
+        "url": "git+https://github.com/emeraldjava/resume.git"
     },
     "keywords": [
-      "resume"
+        "resume"
     ],
     "author": "emeraldjava",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/emeraldjava/resume/issues"
+        "url": "https://github.com/emeraldjava/resume/issues"
     },
-    "homepage": "https://github.com/emeraldjava/resume#readme"
-  }
+    "homepage": "https://github.com/emeraldjava/resume#readme",
+    "dependencies": {
+        "jsonresume-theme-github": "^0.0.5",
+        "resume-cli": "^3.0.8"
+    }
+}

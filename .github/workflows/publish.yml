@@ -8,8 +8,10 @@ jobs:
   publish_resume:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v2.4.0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
 
       - name: Install the dependencies
         run: npm install resume-cli jsonresume-theme-github
