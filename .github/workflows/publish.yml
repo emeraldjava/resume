@@ -17,7 +17,7 @@ jobs:
         run: npm install resume-cli jsonresume-theme-github
 
       - name: Build the resume
-        run: mkdir -p public && ./node_modules/.bin/resume export public/index.html --theme github && ls public
+        run: mkdir -p public && ./node_modules/.bin/resume export public/index.html --theme macchiato && ls public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
