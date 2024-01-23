@@ -1,2 +1,8 @@
 public
 node_modules
+.idea
+jobapplications
+.DS_Store
+package-lock.json
+resume.html
+notes.md
