@@ -6,7 +6,8 @@
     "type": "module",
     "scripts": {
         "init": "resumed init",
-        "theme-onepage": "resumed --theme jsonresume-theme-onepage",
+        "clean": "del-cli --force ./out/**",
+        "theme-onepage": "resumed --theme jsonresume-theme-onepage --output out/jsonresume-theme-onepage.html",
         "theme-onepage-plus": "resumed --theme jsonresume-theme-onepage-plus",
         "theme-relaxed": "resumed --theme jsonresume-theme-relaxed",
         "theme-macchiato": "resumed --theme jsonresume-theme-macchiato",
@@ -16,7 +17,8 @@
         "theme-kendall": "resumed --theme jsonresume-theme-kendall",
         "theme-jacrys": "resumed --theme jsonresume-theme-jacrys",
         "theme-paper": "resumed --theme jsonresume-theme-paper",
-        "theme-paper-plus-plus": "resumed --theme jsonresume-theme-paper-plus-plus",
+        "theme-paper-plus-plus": "resumed --theme jsonresume-theme-paper-plus-plus --output out/jsonresume-theme-paper-plus-plus.html",
+        "all": "npm-run-all clean theme-paper-plus-plus theme-onepage",
         "pdf": "node resumed-as-pdf.js"
     },
     "repository": {
@@ -33,25 +35,29 @@
     },
     "homepage": "https://github.com/emeraldjava/resume#readme",
     "dependencies": {
+        "jsonresume-theme-actual": "1.2.2",
         "jsonresume-theme-actual-entropitor": "1.2.0",
         "jsonresume-theme-actual-letter": "0.1.6",
-        "jsonresume-theme-actual": "1.2.2",
         "jsonresume-theme-direct": "^0.1.1",
         "jsonresume-theme-eloquent": "5.0.0",
         "jsonresume-theme-eloquent-mod": "^4.24.0",
         "jsonresume-theme-github": "^0.0.5",
         "jsonresume-theme-github2": "^0.0.8",
+        "jsonresume-theme-jacrys": "1.0.4",
+        "jsonresume-theme-kendall": "0.2.0",
         "jsonresume-theme-latte": "^1.0.2",
         "jsonresume-theme-macchiato": "^1.1.0",
         "jsonresume-theme-onepage": "^0.0.3",
         "jsonresume-theme-onepage-plus": "1.0.1",
-        "jsonresume-theme-relaxed": "0.1.8",
-        "jsonresume-theme-kendall": "0.2.0",
-        "jsonresume-theme-jacrys": "1.0.4",
         "jsonresume-theme-paper": "0.5.0",
         "jsonresume-theme-paper-plus-plus": "0.5.1",
+        "jsonresume-theme-relaxed": "0.1.8",
         "jsonresume-theme-stackoverflow": "^2.0.2",
         "puppeteer": "^21.9.0",
         "resumed": "^3.0.1"
+    },
+    "devDependencies": {
+        "del-cli": "^5.1.0",
+        "npm-run-all": "^4.1.5"
     }
 }

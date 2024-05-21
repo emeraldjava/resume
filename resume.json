@@ -1,5 +1,5 @@
 {
-    "meta": { "version": "2024.01.23", "lastModified": "2024-01-16T10:29:37.844Z" },
+    "meta": { "version": "2024.21.24", "lastModified": "2024-05-21T09:01:37.844Z" },
     "basics": {
       "label": "Principal Software Engineer",
       "characterClass": "Programmer",
@@ -189,13 +189,14 @@
           "Core",
           "Boot",
           "Batch",
-          "Data"
+          "Data",
+          "Test"
         ]
       },
-      { "name": "Java",
+      { "name": "Test Tools",
         "level": "Advanced",
         "keywords": [
-          "Core Java 17"
+          "Junit","Jmeter","ExtentReports","Sprock","T3","TestRail"
         ]
       },
       { "name": "Dev Ops",
@@ -262,7 +263,7 @@
         "name": "Other",
         "level": "Advanced",
         "keywords": [
-          "Hugo",
+          "Astro",
           "Vaadin",
           "Go",
           "OpenAPI",

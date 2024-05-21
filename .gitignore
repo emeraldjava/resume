@@ -6,3 +6,5 @@ jobapplications
 package-lock.json
 resume.html
 notes.md
+out
+.frontmatter
