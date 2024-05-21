@@ -1,10 +1,10 @@
 {
-    "meta": { "version": "2024.01.19", "lastModified": "2024-01-16T10:29:37.844Z" },
+    "meta": { "version": "2024.01.23", "lastModified": "2024-01-16T10:29:37.844Z" },
     "basics": {
-      "label": "Software Engineer",
+      "label": "Principal Software Engineer",
       "characterClass": "Programmer",
       "quote": "Can we automate it?.",
-      "phone": "",
+      "phone": "086 3701860",
       "email": "paul.t.oconnell@gmail.com",
       "other": [],
       "website": "",
@@ -16,8 +16,7 @@
         "address": "Dublin",
         "postalCode": "-",
         "city": "Dublin",
-        "countryCode": "Ireland",
-        "region": "Ireland"
+        "countryCode": "Ireland"
       },
       "profiles": [{
           "network": "GitHub",
@@ -270,23 +269,6 @@
           "ISO-20022"
         ]
       }
-    ],
-    "volunteer": [{
-      "organization": "Business Houses Athletic Association",
-      "position": "Webmaster and past Chairperson",
-      "website": "http://bhaa.ie/",
-      "startDate": "2010-01-01",
-      "summary": "The BHAA organise running races on an inter-firm basis.",
-      "highlights": [
-        "Development of a wordpress plugin for online viewing of race results and leagues. Integration with Stripe APIs for race payments."
-      ]
-    }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Trinity College Dublin",
-      "releaseDate": "2000-09-01",
-      "website": "http://www.tara.tcd.ie/handle/2262/748",
-      "summary": "Collaborative Ad-hoc Applications"
-    }]
+    ]
   }
   
