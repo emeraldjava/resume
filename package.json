@@ -11,7 +11,6 @@
         "theme-onepage-plus": "resumed --theme jsonresume-theme-onepage-plus",
         "theme-relaxed": "resumed --theme jsonresume-theme-relaxed",
         "theme-macchiato": "resumed -t jsonresume-theme-macchiato -o out/jsonresume-macchiato.html",
-        "theme-actual": "resumed --theme jsonresume-theme-actual",
         "theme-actual-entropitor": "resumed --theme jsonresume-theme-actual-entropitor",
         "theme-actual-letter": "resumed --theme jsonresume-theme-actual-letter",
         "theme-kendall": "resumed --theme jsonresume-theme-kendall",
@@ -35,7 +34,6 @@
     },
     "homepage": "https://github.com/emeraldjava/resume#readme",
     "dependencies": {
-        "jsonresume-theme-actual": "1.2.2",
         "jsonresume-theme-actual-entropitor": "1.2.0",
         "jsonresume-theme-actual-letter": "0.1.6",
         "jsonresume-theme-direct": "^0.1.1",
