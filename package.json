@@ -7,18 +7,18 @@
     "scripts": {
         "init": "resumed init",
         "clean": "del-cli --force ./out/**",
-        "theme-onepage": "resumed --theme jsonresume-theme-onepage --output out/jsonresume-theme-onepage.html",
+        "theme-onepage": "resumed --theme jsonresume-theme-onepage --output out/jsonresume-onepage.html",
         "theme-onepage-plus": "resumed --theme jsonresume-theme-onepage-plus",
         "theme-relaxed": "resumed --theme jsonresume-theme-relaxed",
-        "theme-macchiato": "resumed --theme jsonresume-theme-macchiato",
+        "theme-macchiato": "resumed -t jsonresume-theme-macchiato -o out/jsonresume-macchiato.html",
         "theme-actual": "resumed --theme jsonresume-theme-actual",
         "theme-actual-entropitor": "resumed --theme jsonresume-theme-actual-entropitor",
         "theme-actual-letter": "resumed --theme jsonresume-theme-actual-letter",
         "theme-kendall": "resumed --theme jsonresume-theme-kendall",
         "theme-jacrys": "resumed --theme jsonresume-theme-jacrys",
         "theme-paper": "resumed --theme jsonresume-theme-paper",
-        "theme-paper-plus-plus": "resumed --theme jsonresume-theme-paper-plus-plus --output out/jsonresume-theme-paper-plus-plus.html",
-        "all": "npm-run-all clean theme-paper-plus-plus theme-onepage",
+        "theme-paper-plus-plus": "resumed --theme jsonresume-theme-paper-plus-plus --output out/jsonresume-paper-plus-plus.html",
+        "all": "npm-run-all clean theme-paper-plus-plus theme-onepage theme-macchiato",
         "pdf": "node resumed-as-pdf.js"
     },
     "repository": {

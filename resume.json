@@ -196,7 +196,7 @@
       { "name": "Test Tools",
         "level": "Advanced",
         "keywords": [
-          "Junit","Jmeter","ExtentReports","Sprock","T3","TestRail"
+          "Junit","Jmeter","JBehave","Serenity","TestContainers","ExtentReports","Sprock","T3","TestRail"
         ]
       },
       { "name": "Dev Ops",
@@ -264,8 +264,7 @@
         "level": "Advanced",
         "keywords": [
           "Astro",
-          "Vaadin",
-          "Go",
+          "Nifi",
           "OpenAPI",
           "ISO-20022"
         ]
